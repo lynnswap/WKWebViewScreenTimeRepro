@@ -1,5 +1,8 @@
 # WKWebViewのテストが停止する問題の再現
 
+> [!NOTE]
+> FB25159342
+
 iOS Simulatorで`WKWebView.evaluateJavaScript`を使うテストが、時々進まなくなる問題がありました。停止中のテストアプリのスタックを採取したところ、ScreenTimeのクライアントコードで同期XPCの応答を待つスレッドが確認できました。
 
 この最小プロジェクトでは、ScreenTimeがこの停止に関与しているかを切り分けます。WebKitの`ScreenTimeEnabled`を有効・無効にし、同じ手順でページの読み込みとJavaScript実行を比較します。各WKWebViewの生成前にWKPreferencesの非公開APIでフラグを設定し、生成後の`configuration`から設定値を確認します。
