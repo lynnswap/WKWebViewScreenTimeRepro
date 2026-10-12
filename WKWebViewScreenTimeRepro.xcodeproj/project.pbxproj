@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AB2A3707307D0B230074427B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB013788307D0914009D7C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB01378F307D0914009D7C1A;
+			remoteInfo = WKWebViewScreenTimeRepro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB013790307D0914009D7C1A /* WKWebViewScreenTimeRepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewScreenTimeRepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0137A2307D093C009D7C1A /* WKWebViewScreenTimeReproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewScreenTimeReproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2A3706307D0AE90074427B /* WKWebViewScreenTimeRepro.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; path = WKWebViewScreenTimeRepro.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB013792307D0914009D7C1A /* WKWebViewScreenTimeRepro */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WKWebViewScreenTimeRepro;
+			sourceTree = "<group>";
+		};
+		AB0137A3307D093C009D7C1A /* WKWebViewScreenTimeReproTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WKWebViewScreenTimeReproTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB01378D307D0914009D7C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AB01379F307D093C009D7C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB013787307D0914009D7C1A = {
+			isa = PBXGroup;
+			children = (
+				AB2A3706307D0AE90074427B /* WKWebViewScreenTimeRepro.xctestplan */,
+				AB013792307D0914009D7C1A /* WKWebViewScreenTimeRepro */,
+				AB0137A3307D093C009D7C1A /* WKWebViewScreenTimeReproTests */,
+				AB013791307D0914009D7C1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB013791307D0914009D7C1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB013790307D0914009D7C1A /* WKWebViewScreenTimeRepro.app */,
+				AB0137A2307D093C009D7C1A /* WKWebViewScreenTimeReproTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB01378F307D0914009D7C1A /* WKWebViewScreenTimeRepro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB01379B307D0915009D7C1A /* Build configuration list for PBXNativeTarget "WKWebViewScreenTimeRepro" */;
+			buildPhases = (
+				AB01378C307D0914009D7C1A /* Sources */,
+				AB01378D307D0914009D7C1A /* Frameworks */,
+				AB01378E307D0914009D7C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB013792307D0914009D7C1A /* WKWebViewScreenTimeRepro */,
+			);
+			name = WKWebViewScreenTimeRepro;
+			productName = WKWebViewScreenTimeRepro;
+			productReference = AB013790307D0914009D7C1A /* WKWebViewScreenTimeRepro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB0137A1307D093C009D7C1A /* WKWebViewScreenTimeReproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0137A6307D093C009D7C1A /* Build configuration list for PBXNativeTarget "WKWebViewScreenTimeReproTests" */;
+			buildPhases = (
+				AB01379E307D093C009D7C1A /* Sources */,
+				AB01379F307D093C009D7C1A /* Frameworks */,
+				AB0137A0307D093C009D7C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2A3708307D0B230074427B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB0137A3307D093C009D7C1A /* WKWebViewScreenTimeReproTests */,
+			);
+			name = WKWebViewScreenTimeReproTests;
+			productName = WKWebViewScreenTimeReproTests;
+			productReference = AB0137A2307D093C009D7C1A /* WKWebViewScreenTimeReproTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB013788307D0914009D7C1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					AB01378F307D0914009D7C1A = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					AB0137A1307D093C009D7C1A = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = AB01378F307D0914009D7C1A;
+					};
+				};
+			};
+			buildConfigurationList = AB01378B307D0914009D7C1A /* Build configuration list for PBXProject "WKWebViewScreenTimeRepro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB013787307D0914009D7C1A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AB013791307D0914009D7C1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB01378F307D0914009D7C1A /* WKWebViewScreenTimeRepro */,
+				AB0137A1307D093C009D7C1A /* WKWebViewScreenTimeReproTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB01378E307D0914009D7C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AB0137A0307D093C009D7C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB01378C307D0914009D7C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AB01379E307D093C009D7C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2A3708307D0B230074427B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB01378F307D0914009D7C1A /* WKWebViewScreenTimeRepro */;
+			targetProxy = AB2A3707307D0B230074427B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB013799307D0915009D7C1A /* Debug configuration for PBXProject "WKWebViewScreenTimeRepro" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB01379A307D0915009D7C1A /* Release configuration for PBXProject "WKWebViewScreenTimeRepro" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB01379C307D0915009D7C1A /* Debug configuration for PBXNativeTarget "WKWebViewScreenTimeRepro" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.WKWebViewScreenTimeRepro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB01379D307D0915009D7C1A /* Release configuration for PBXNativeTarget "WKWebViewScreenTimeRepro" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.WKWebViewScreenTimeRepro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB0137A7307D093C009D7C1A /* Debug configuration for PBXNativeTarget "WKWebViewScreenTimeReproTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.WKWebViewScreenTimeReproTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = WKWebViewScreenTimeReproTests/ScreenTimePreferences.h;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebViewScreenTimeRepro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WKWebViewScreenTimeRepro";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		AB0137A8307D093C009D7C1A /* Release configuration for PBXNativeTarget "WKWebViewScreenTimeReproTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.WKWebViewScreenTimeReproTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = WKWebViewScreenTimeReproTests/ScreenTimePreferences.h;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebViewScreenTimeRepro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WKWebViewScreenTimeRepro";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB01378B307D0914009D7C1A /* Build configuration list for PBXProject "WKWebViewScreenTimeRepro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB013799307D0915009D7C1A /* Debug configuration for PBXProject "WKWebViewScreenTimeRepro" */,
+				AB01379A307D0915009D7C1A /* Release configuration for PBXProject "WKWebViewScreenTimeRepro" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AB01379B307D0915009D7C1A /* Build configuration list for PBXNativeTarget "WKWebViewScreenTimeRepro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB01379C307D0915009D7C1A /* Debug configuration for PBXNativeTarget "WKWebViewScreenTimeRepro" */,
+				AB01379D307D0915009D7C1A /* Release configuration for PBXNativeTarget "WKWebViewScreenTimeRepro" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AB0137A6307D093C009D7C1A /* Build configuration list for PBXNativeTarget "WKWebViewScreenTimeReproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0137A7307D093C009D7C1A /* Debug configuration for PBXNativeTarget "WKWebViewScreenTimeReproTests" */,
+				AB0137A8307D093C009D7C1A /* Release configuration for PBXNativeTarget "WKWebViewScreenTimeReproTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB013788307D0914009D7C1A /* Project object */;
+	validationLevel = 1;
+}

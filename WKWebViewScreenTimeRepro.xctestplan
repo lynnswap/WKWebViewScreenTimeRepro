@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "8F454A46-6E73-4334-900D-AC294E2532A9",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:WKWebViewScreenTimeRepro.xcodeproj",
+      "identifier" : "AB01378F307D0914009D7C1A",
+      "name" : "WKWebViewScreenTimeRepro"
+    },
+    "testInteropMode" : "complete"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:WKWebViewScreenTimeRepro.xcodeproj",
+        "identifier" : "AB0137A1307D093C009D7C1A",
+        "name" : "WKWebViewScreenTimeReproTests"
+      }
+    }
+  ],
+  "version" : 1
+}
